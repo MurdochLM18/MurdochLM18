@@ -1,0 +1,32 @@
+.header{
+width:1440px;
+height:150px;
+background-color:#232123;
+text-align:center;
+position:fixed;
+top:0px;    
+left:0px;
+font-family:'gotham-bold', sans-serif;
+color:white;
+text-align:center;
+font-size:5px;
+padding-top:15px;
+}
+.header img{
+ position: absolute;
+  top: 5px;
+  right: 90px;
+}
+.sidenav{
+left:0px;
+background-color:#232123;
+position:fixed;
+height:1000px;
+top:0px;
+width:200px;
+}
+    
+}
+.Main{
+    
+}
