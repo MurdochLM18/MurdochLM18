@@ -5,7 +5,7 @@ background-color:#2D2C2B;
 position:absolute;
 top:0px;    
 left:0px;
-
+z-index:-1;
 }
 
 
@@ -17,6 +17,12 @@ left:0px;
     
 }
 
+.menu button{
+    z-index:10;
+    color:white;
+    
+}
+
 
 
 .sidenav{
@@ -25,7 +31,7 @@ background-color:#2D2C2B;
 position:fixed;
 height:100%;
 top:0px;
-width:175px;
+width:0;
 z-index:1;
 overflow-x: hidden;
 padding-top: 60px;
@@ -33,7 +39,7 @@ transition: 0.5s;
 }
     
 .sidenav a{
- padding: 8px 8px 8px 32px;
+ padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 25px;
   color: #f1f1f1;
@@ -46,6 +52,22 @@ transition: 0.5s;
   color: #f1f1f1;
 }
 
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+
 }
 .main{
 background-color:royalblue;
@@ -54,8 +76,8 @@ width:1199px;
 position:absolute;
 top:140px;
 right:150px;
+    z-index:100;
 }
-
 
 
 .headertext{
@@ -67,13 +89,10 @@ font-family:'gotham-bold', sans-serif;
 color:#f1f1f1;
 text-align:center;
 font-size:40px;
-z-index:999;
 width:1349px;
 height:130px;
     
 }
-
-
 
 
 
