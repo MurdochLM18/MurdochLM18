@@ -1,0 +1,95 @@
+.sidenav{
+left:0px;
+background-color:#2D2C2B;
+position:fixed;
+height:100%;
+top:0px;
+width:0;
+z-index:501;
+overflow-x: hidden;
+padding-top: 60px;
+transition: 0.5s; 
+}
+
+    
+.sidenav a{
+ padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  font-family:sans-serif;
+  z-index:502;
+  white-space: nowrap
+}
+
+
+.sidenav a:hover {
+  color: black;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top:0;
+  right:25px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+.openbtn{
+position: absolute;
+top:-45px;
+left:25px;
+font-size:200px;
+color:white;
+z-index:500;
+cursor:pointer;
+}
+
+.header{
+width:100%;
+height:22.5%;
+background-color:#2D2C2B;
+position:absolute;
+top:0;    
+left:0;
+z-index:-1;
+}
+
+.headerimg{
+ position: absolute;
+  top: -5px;
+  right: 20px;
+    
+}
+
+
+.headertext{
+text-align:center;
+position:absolute;
+font-family:'gotham-bold', sans-serif;
+color:#f1f1f1;
+text-align:center;
+font-size:40px;
+width:97%;
+height:22.5%;
+top:-30px;
+left:0;
+}
+
+
+
+.main{
+background-color:royalblue;
+height:73%;
+width:97.8%;
+position:absolute;
+top:22.5%;
+left:0;
+z-index:-2;
+border-style:solid;
+border-color:#FCFCFC;
+border-width:15px;
+}
