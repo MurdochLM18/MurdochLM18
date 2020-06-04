@@ -21,12 +21,13 @@ transition: 0.5s;
   transition: 0.3s;
   font-family:sans-serif;
   z-index:502;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 
 .sidenav a:hover {
-  color: black;
+  background-color:#f1f1f1;
+  color:black;
 }
 
 
@@ -38,6 +39,13 @@ transition: 0.5s;
   margin-left:50px;
 }
 
+
+.sidenav .closebtn:hover {
+    background-color:#2D2C2B;
+    color:darkgray;
+}
+
+
 .openbtn{
 position: absolute;
 top:-45px;
@@ -47,6 +55,7 @@ color:white;
 z-index:500;
 cursor:pointer;
 }
+
 
 .header{
 width:100%;
@@ -58,11 +67,11 @@ left:0;
 z-index:-1;
 }
 
+
 .headerimg{
  position: absolute;
   top: -5px;
-  right: 20px;
-    
+  right: 20px; 
 }
 
 
