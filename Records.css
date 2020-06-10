@@ -113,7 +113,7 @@ font-size:14px;
 border-width:3px;
 border-style:solid;
 border-color:#f1f1f1;
-margin-left:30px;
+margin-left:5px;
 margin-top:170px;
 width:430px;
 position:absolute;
@@ -125,14 +125,14 @@ font-size:14px;
 border-width:3px;
 border-style:solid;
 border-color:#f1f1f1;
-margin-left:930px;
+margin-left:950px;
 position:absolute;
 margin-top:170px;
 }
 
 .mainpic{
 position:absolute;
-left:27.5%;
+left:32.9%;
 top:35%;
 z-index:-1;
 }
