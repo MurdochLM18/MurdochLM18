@@ -92,7 +92,7 @@ left:0;
 
 .main{
 background-color:royalblue;
-height:73%;
+height:72.7%;
 width:97.8%;
 position:absolute;
 top:22.5%;
@@ -105,8 +105,7 @@ border-width:15px;
 
 
 .mainpic{
-left:30px;
-bottom:40px;
-position:absolute;
-
+left:20px;
+bottom:30px;
+position:fixed;
 }

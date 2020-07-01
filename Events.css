@@ -92,7 +92,7 @@ left:0;
 
 .main{
 background-color:royalblue;
-height:73%;
+height:72.7%;
 width:97.8%;
 position:absolute;
 top:22.5%;
@@ -111,9 +111,9 @@ z-index:-1;
 font-size:14px;
 color:#f1f1f1;
 font-family:sans-serif;
-margin-top:250px;
+margin-top:0;
 margin-left:65px;
-position:absolute;
+position:fixed;
 border-width:3px;
 border-style:solid;
 border-color:#f1f1f1;
@@ -124,10 +124,17 @@ z-index:999;
 font-size:14px;
 color:#f1f1f1;
 font-family:sans-serif;
-margin-top:275px;
+margin-top:0;
 margin-left:700px;
-position:absolute;
+position:fixed;
 border-width:3px;
 border-style:solid;
 border-color:#f1f1f1;
+}
+
+@media screen and (max-width:800px) {
+    .main2, .main3, {
+        position: inherit;
+        margin: 0px;
+    }
 }
